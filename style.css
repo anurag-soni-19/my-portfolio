@@ -1,0 +1,140 @@
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #fff;
+    font-size: 20px;
+
+    background-image: url(./img/Blue\ Good\ Night\ \(Flyer\).jpg);
+
+    border-radius: 25px;
+    min-width: 780px;
+}
+
+.gamer{
+    color: rgb(154, 142, 142);
+}
+
+.name{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin: 0.5rem;
+    padding-top: 2rem;
+}
+
+.programmer{
+    margin-top: 0;
+}
+
+.my-picture{
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 0.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+}
+
+.introduction{
+    margin-right: 5rem;
+    margin-top: 0;
+}
+
+.hero{
+    min-width: 780px;
+    min-height: 200px;
+}
+
+.hello{
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    color: #191990;
+}
+
+.paragraph{
+    margin-top: 0;
+    color: #191940;
+}
+
+.sub-title{
+    clear: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.sub-section{
+    display: flex;
+    gap: 1rem;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+
+}
+
+.properties{
+    align-self: flex-start;
+}
+
+.porject-paragraph{
+    padding: 1rem;
+    margin: 0;
+}
+
+.project-name{
+    padding: 0.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer{
+    background-image: url(./img/Blue\ Good\ Night\ \(Flyer\).jpg);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 3%;
+    padding-bottom: 20px; 
+
+    min-width: 780px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.profile-links{
+    text-decoration: none;
+}
+.profile-names{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.copyright{
+    color: white;
+    margin-top: 0;
+}
