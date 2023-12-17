@@ -192,10 +192,16 @@
     .project-name{
         font-size: 0.8rem;    
     }
+    .properties{
+        font-size: 0.8rem;
+    }
 }
 @media (min-width : 580px) and (max-width : 780px){
     .paragraph{
         font-size: 0.8rem;
         text-align: justify;
+    }
+    .properties{
+        font-size: 0.8rem;
     }
 }
