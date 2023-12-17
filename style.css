@@ -187,9 +187,11 @@
 
     .project-paragraph{
         padding: 0.5rem;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
-}
+    .project-name{
+        font-size: 0.8rem;    
+    }
 
 @media (min-width : 580px) and (max-width : 780px){
     .paragraph{
