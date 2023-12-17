@@ -193,7 +193,7 @@
         font-size: 0.8rem;    
     }
     .properties{
-        font-size: 0.8rem;
+        font-size: 0.4rem;
     }
 }
 @media (min-width : 580px) and (max-width : 780px){
@@ -202,6 +202,6 @@
         text-align: justify;
     }
     .properties{
-        font-size: 0.8rem;
+        font-size: 0.4rem;
     }
 }
