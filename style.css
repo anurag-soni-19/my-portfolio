@@ -1,3 +1,21 @@
+.gradient-background {
+    background: linear-gradient(300deg, #9BB8CD, #EEEDED, #4CB9E7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    }
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .title{
     width: 100%;
     display: flex;
@@ -10,7 +28,7 @@
     background-image: url(./img/Blue\ Good\ Night\ \(Flyer\).jpg);
 
     border-radius: 25px;
-    min-width: 780px;
+    /* min-width: 780px; */
 }
 
 .gamer{
@@ -19,7 +37,7 @@
 
 .name{
     font-family: 'Sacramento', cursive;
-    font-size: 5rem;
+    font-size: 6rem;
     margin: 0.5rem;
     padding-top: 2rem;
 }
@@ -43,8 +61,7 @@
 }
 
 .hero{
-    min-width: 780px;
-    min-height: 200px;
+    min-height: 200px; 
 }
 
 .hello{
@@ -94,9 +111,10 @@
     align-self: flex-start;
 }
 
-.porject-paragraph{
+.project-paragraph{
     padding: 1rem;
     margin: 0;
+    color: black;
 }
 
 .project-name{
@@ -117,16 +135,15 @@
     margin-top: 3%;
     padding-bottom: 20px; 
 
-    min-width: 780px;
+    /* min-width: 780px; */
 }
 .links{
     display: flex;
     justify-content: center;
     gap: 10px;
-
 }
 
-.profile-links{
+.profile-project-links{
     text-decoration: none;
 }
 .profile-names{
@@ -137,4 +154,46 @@
 .copyright{
     color: white;
     margin-top: 0;
+}
+
+@media (max-width : 580px) {
+    .name{
+        font-size: 3rem;
+        margin: 0.25rem;
+    }
+
+    .hello{
+        margin-top: 0.5rem;
+        font-size: 1.75rem;  
+    }
+
+    .introduction{
+        margin-right: 2rem;
+    }
+
+    .paragraph{
+        font-size: 0.75rem;
+        text-align: justify;
+    }
+
+    .card{
+        height: 150px;
+        width: 150px;
+    }
+    .sub-section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .project-paragraph{
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width : 580px) and (max-width : 780px){
+    .paragraph{
+        font-size: 0.8rem;
+        text-align: justify;
+    }
 }
